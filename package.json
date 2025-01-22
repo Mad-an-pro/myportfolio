@@ -21,6 +21,7 @@
     "react-animated-numbers": "^0.18.0",
     "react-dom": "^19.0.0",
     "react-type-animation": "^3.2.0",
+    "resend": "^4.1.1",
     "styled-components": "^6.1.14"
   },
   "devDependencies": {
