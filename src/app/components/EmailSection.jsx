@@ -13,21 +13,21 @@ const EmailSection = () => {
       subject: e.target.subject.value,
       message: e.target.message.value,
     };
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
+    // const JSONdata = JSON.stringify(data);
+    // const endpoint = "/api/send";
 
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSONdata,
-    };
+    // const options = {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSONdata,
+    // };
 
-    const response = await fetch(endpoint, options);
-    if (response.status === 200) {
-      setEmailSubmitted(true);
-    }
+    // const response = await fetch(endpoint, options);
+    // if (response.status === 200) {
+    //   setEmailSubmitted(true);
+    // }
   };
 
   return (

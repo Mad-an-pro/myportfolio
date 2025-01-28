@@ -20,12 +20,15 @@
     "react": "^19.0.0",
     "react-animated-numbers": "^0.18.0",
     "react-dom": "^19.0.0",
+    "react-tsparticles": "^2.12.2",
     "react-type-animation": "^3.2.0",
-    "resend": "^4.1.1",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "tsparticles": "^3.8.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@typescript-eslint/eslint-plugin": "^8.22.0",
+    "@typescript-eslint/parser": "^8.22.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.1.3",
